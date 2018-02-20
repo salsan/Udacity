@@ -1,0 +1,46 @@
+.card {
+  width: 300px;
+  padding: 10px;
+  background: rgba(76,76,76,1);
+  background: -webkit-linear-gradient(rgba(76,76,76,1) 0%, rgba(255,255,255,1) 0%, rgba(102,102,102,1) 76%, rgba(71,71,71,1) 82%, rgba(44,44,44,1) 86%, rgba(17,17,17,1) 90%, rgba(0,0,0,1) 92%, rgba(43,43,43,1) 96%, rgba(19,19,19,1) 100%);
+  background: -o-linear-gradient(rgba(76,76,76,1) 0%, rgba(255,255,255,1) 0%, rgba(102,102,102,1) 76%, rgba(71,71,71,1) 82%, rgba(44,44,44,1) 86%, rgba(17,17,17,1) 90%, rgba(0,0,0,1) 92%, rgba(43,43,43,1) 96%, rgba(19,19,19,1) 100%);
+  background: linear-gradient(rgba(76,76,76,1) 0%, rgba(255,255,255,1) 0%, rgba(102,102,102,1) 76%, rgba(71,71,71,1) 82%, rgba(44,44,44,1) 86%, rgba(17,17,17,1) 90%, rgba(0,0,0,1) 92%, rgba(43,43,43,1) 96%, rgba(19,19,19,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
+.card,
+.info {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.info {
+  margin-top: 8px;
+  padding: 5px;
+  background: white;
+  text-align: justify;
+}
+
+.fact {
+  font-style: italic;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+span {
+  font-weight: bold;
+}
